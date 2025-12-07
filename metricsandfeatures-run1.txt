@@ -1,0 +1,63 @@
+Start time: 2025-12-06T22:22:02.651059+00:00
+End time:   2025-12-06T22:22:12.667682+00:00
+Duration (seconds): 10.02
+
+=== DATASET INFO ===
+Training range: 2024-09-01 → 2025-09-30
+Total samples: 9433
+Train samples: 7546
+Test samples:  1887
+
+=== CROSS-VALIDATION ===
+Best CV RMSE: 2.9716
+
+=== TEST PERFORMANCE ===
+RMSE: 0.8251
+MAE : 0.2494
+R²  : 0.6387
+
+=== BEST HYPERPARAMETERS ===
+subsample: 1.0
+reg_lambda: 10.0
+reg_alpha: 2.0
+n_estimators: 500
+max_depth: 3
+learning_rate: 0.06999999999999999
+gamma: 0.0
+colsample_bytree: 0.9
+
+=== FEATURE IMPORTANCES ===
+sm_lag_0: 0.2687
+doy_sin: 0.2371
+sm_lag_1: 0.1085
+sm_lag_10: 0.0492
+sm_lag_7: 0.0446
+doy_cos: 0.0306
+sm_lag_21: 0.0245
+sm_lag_2: 0.0225
+soil_temp: 0.0204
+sm_lag_13: 0.0182
+sm_lag_14: 0.0177
+sm_lag_12: 0.0173
+sm_lag_3: 0.0161
+sm_lag_23: 0.0147
+sm_lag_11: 0.0140
+sm_lag_9: 0.0133
+sm_lag_15: 0.0122
+sm_lag_20: 0.0116
+sm_lag_6: 0.0113
+sm_lag_18: 0.0091
+sm_lag_22: 0.0078
+sm_lag_17: 0.0061
+sm_lag_8: 0.0050
+sm_lag_19: 0.0046
+sm_lag_16: 0.0039
+wind_speed: 0.0029
+hour_cos: 0.0027
+sm_lag_4: 0.0024
+air_temp: 0.0015
+hour_sin: 0.0014
+sm_lag_5: 0.0000
+
+Feature columns:
+sm_lag_0, sm_lag_1, sm_lag_2, sm_lag_3, sm_lag_4, sm_lag_5, sm_lag_6, sm_lag_7, sm_lag_8, sm_lag_9, sm_lag_10, sm_lag_11, sm_lag_12, sm_lag_13, sm_lag_14, sm_lag_15, sm_lag_16, sm_lag_17, sm_lag_18, sm_lag_19, sm_lag_20, sm_lag_21, sm_lag_22, sm_lag_23, air_temp, wind_speed, soil_temp, hour_sin, hour_cos, doy_sin, doy_cos
